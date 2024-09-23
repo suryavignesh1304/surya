@@ -9,7 +9,10 @@ export default {
     extend: {
       fontFamily:{
         'sans':['Inter','sans-serif']
-      }
+      },
+      zIndex: {
+        '-90': '-90',
+      },
     },
   },
   plugins: [tailwindcssScrollbar],
